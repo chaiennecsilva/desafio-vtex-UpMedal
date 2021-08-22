@@ -26,10 +26,11 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
+      "flex-layout.col#spacer", //centralizar a barra de pesquisa
       "search-bar",
+      "flex-layout.col#spacer", //fim da barra de pesquisa
       "locale-switcher",
-      "login",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
@@ -48,8 +49,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/upmedal-icone.png",
+      "width": "150"
     }
   },
   "header-layout.mobile": {

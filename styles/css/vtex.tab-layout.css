@@ -1,0 +1,11 @@
+.listContainer {
+justify-content: start;
+background: #212121; 
+    }
+
+/*inclusão da borda do menu inicial*/    
+.listItemActive{ 
+border-bottom: 2px solid #59ff00;
+color: #59ff00;
+    }   
+

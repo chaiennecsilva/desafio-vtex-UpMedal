@@ -1,0 +1,21 @@
+.imageElement {
+width: 50%;
+/* height: 300px; */
+width: auto;
+height: auto;
+object-fit: cover;
+object-position: bottom;
+cursor: pointer;
+display: block;
+overflow: hidden;
+position: relative;
+border-radius: 50px;
+margin: 80px;
+    }
+
+/*.listItem :global(.vtex-button) {}*/
+
+.infoCardContainer{ /*parte de estilação do menu do footer*/
+    background: #424242;
+    justify-content: center;
+}

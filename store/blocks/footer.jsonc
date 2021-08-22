@@ -2,25 +2,70 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-desktop"
     ]
   },
-  "footer-layout.mobile": { 
+  "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-mobile"
     ]
   },
-  "flex-layout.row#footer": { 
+  "flex-layout.row#footer-desktop": {
     "children": [
-      "image"
+      "info-card#menuentrar",
+      "info-card#menudesafios",
+      "info-card#menuloja",
+      "info-card#menusuporte"
     ]
   },
-  "image": {
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "info-card#menuentrar",
+      "info-card#menudesafios",
+      "info-card#menuloja",
+      "info-card#menusuporte"
+    ]
+  },
+  "info-card#menuentrar": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "image": "assets/entrar.png",
+      "isFullModeStyle": true,
+      "callToActionText": "ENTRAR",
+      "textPosition": "center"
     }
+  },
+  
+  "info-card#menudesafios": {
+    "props": {
+      "image": "assets/trofeu.png",
+      "callToActionText": "DESAFIOS",
+      "textPosition": "center"
+    }
+  },
+  "info-card#menuloja": {
+    "props": {
+      "image": "assets/carinho.png",
+      "callToActionText": "LOJA",
+      "textPosition": "center"
+    }
+  },
+  "info-card#menusuporte": {
+    "props": {
+      "image": "assets/suporte.png",
+      "callToActionText": "SUPORTE",
+      "textPosition": "center" 
+    }
+  },
+  "image#example": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24,
+      "callToActionText": "SUPORTE",
+      "textPosition": "center" 
+    }
+    
   }
+
 }
